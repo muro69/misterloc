@@ -1,0 +1,7 @@
+echo "# misterloc" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/muro69/misterloc.git
+git push -u origin main
